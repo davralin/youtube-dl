@@ -11,8 +11,10 @@ RUN \
     ffmpeg \
     jq \
     python3-minimal \
+    python-is-python3 \
     rename \
     webp \
     && \
     /bin/rm -rf /var/lib/apt/lists/* && \
-    /usr/bin/curl --create-dirs --output /usr/local/bin/youtube-dl "https://yt-dl.org/downloads/latest/youtube-dl"
+    /usr/bin/curl -L --create-dirs --output /usr/local/bin/youtube-dl "https://yt-dl.org/downloads/latest/youtube-dl" && \
+    /bin/chmod 0755 /usr/local/bin/youtube-dl
