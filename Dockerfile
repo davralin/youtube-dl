@@ -10,7 +10,7 @@ RUN \
     curl \
     ffmpeg \
     jq \
-    python-minimal \
+    python3-minimal \
     rename \
     webp \
     && \
