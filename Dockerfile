@@ -14,5 +14,5 @@ RUN \
     rename \
     webp \
     && \
-    /bin/rm -rf /var/lib/apt/lists/* \
-    curl --create-dirs --output /usr/local/bin/youtube-dl "https://yt-dl.org/downloads/latest/youtube-dl"
+    /bin/rm -rf /var/lib/apt/lists/* && \
+    /usr/bin/curl --create-dirs --output /usr/local/bin/youtube-dl "https://yt-dl.org/downloads/latest/youtube-dl"
