@@ -11,6 +11,7 @@ RUN \
     ffmpeg \
     jq \
     python3-minimal \
+    python3-mutagen \
     python-is-python3 \
     rename \
     webp \
