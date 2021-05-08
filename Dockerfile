@@ -11,6 +11,7 @@ RUN \
     curl \
     ffmpeg \
     jq \
+    mkvtoolnix \
     python3-minimal \
     python3-mutagen \
     python-is-python3 \
