@@ -5,6 +5,7 @@ RUN \
   /usr/bin/apt-get -y update && \
   /usr/bin/apt-get -y install --no-install-recommends \
     atomicparsley \
+    attr \
     ca-certificates \
     coreutils \
     curl \
